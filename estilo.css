@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+header{
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #71dc3f;
+    width: 100%;
+    margin-bottom: 30px;
+}
+main{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main #vindo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #555;
+    margin-bottom: 20px
+}
+main form input{
+    height: 53px;
+    width: 83px;
+    color: #fff;
+    background-color: #71dc3f;
+    border: #71dc3f;
+    font-size: 22px;
+    cursor: pointer;
+}
+main #email{
+    font-size: 18px;
+    font-weight:100;
+    font-family: 'Raleway', sans-serif;
+}
+#balões{
+    margin-bottom: 20px;
+}

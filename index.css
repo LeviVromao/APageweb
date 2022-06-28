@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0
+}
+.imagens{
+    width: 100%;
+    position: absolute;
+    top: 53px;
+}
+main{
+    min-width: 320px;
+    max-width: 1560px;
+}
+header{
+    min-width: 320px;
+    max-width: 1560px;
+    display: flex;
+    height: 41px;
+    justify-content: space-around;
+}
+header nav{
+    display: flex;
+    align-items: center;
+}
+header nav a{
+    text-decoration: none;
+    margin-right: 43px;
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+}
+footer{
+    background-color: black;
+    min-width: 320px;
+    max-width: 800px;
+    bottom: -2554px;
+    position: absolute;
+}
+#vetor332{
+    z-index: 1;
+    top:-64px;
+    position:relative
+}
+#vetor333{
+   z-index: 1;
+    bottom: -148px;
+    position: relative;
+}
+#propaganda{
+    position: relative;
+    top: 71px;
+    z-index: 1;
+    left: 91px;
+    font-weight: 800;
+    font-size: 34px;
+    width: 560px;
+}
+p#propaganda{
+    font-size: 23px;
+}
+p{
+    font-weight: 600;
+    font-size: 18px;
+    color: #717B8B;
+}
+form{
+    position: absolute;
+    top: 66px;
+    right: 42px;
+    z-index: 3;
+    background-color: #fff;
+    width: 384px;
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 10%);
+    padding: 20px;
+}
+.titulo-propaganda{
+    margin-bottom: 22px;
+}
+#FirstSection{
+    height: 657.59px;
+}
+#container{
+    height: 100%;
+}
+.titulo-propaganda h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 24px;
+    display: flex;
+    align-items: center
+}
+.form-controle label{
+    font-size: 17px;
+    font-weight: 500;
+}
+.form-controle{
+    margin-bottom: 32px;
+    padding: 5px;
+}
+.form-controle input{
+    border: 2px solid;
+    border-radius: 10px;
+    width: 90%;
+    padding: 10px; 
+}
+#button{
+    padding: 10px;
+    font-size: 14px;
+    width: 96%;
+    border-radius: 10px;
+    background-color: #71dc3f;
+    color: #fff;
+    border: #F2F2F2;
+    cursor: pointer;
+}
+.SecondSection{
+    padding: 10px
+}
+#Product-market{
+    display: grid;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+#Product-market h3{
+    font-size: 30px;
+    font-weight: 700;
+}
+.product{
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 1560px;
+    margin: 0 auto;
+}
+.product div{
+    flex: 1 1 340px;
+    margin: 10px;
+    margin-right: 25px
+}
+.product div h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+.product div p{
+    font-size: 19px;
+}
+.quadradocima{
+    display: grid;
+    height: 346px;
+    box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.1);
+}
+.quadradobaixo{
+    box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.1);
+    display: grid;
+    height: 215px;
+    justify-content: center;
+}
+#luz{
+    position: relative;
+    top: 29px;
+    right: 9px;
+}
+#Section3{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 76px;
+    flex-wrap: wrap;
+    font-weight: 700;
+    margin-bottom: 75px
+}
+#Section4{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F2F2F2;
+}
+#prototipo{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: flex-end;
+    flex: 1 0 240px
+}
+#texto{
+    display: block;
+    padding-left: 37px;
+    margin: auto;
+}
+#texto h3{
+    margin-bottom: 23px
+}
+#texto img{
+    position: relative;
+    top: 26px;
+    right: 30px;
+}
+#Section5{
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+    flex-direction: column;
+    font-size: 30px;
+    font-weight: 700;
+}
+#lastsection{
+    background-color: #F2F2F2;
+    flex-wrap: wrap;
+}
+#lastsection  h2{
+    text-align: center;
+    margin-bottom: 52px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.depoimentos{
+    text-align: center;
+    margin-bottom: 52px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#Gabriela{
+    column-count: 2;
+    height: 358px;
+    box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 10%);
+    margin-right: 37px;
+    border-radius: 10px;
+}
+#Gabriela p{
+    height: 276px;
+    line-height: 26px;
+    color: #717B8B;
+    font-size: 19px;
+    font-weight: 600;
+}
+#Rafael{
+    column-count: 2;
+    height: 358px;
+    width: 581px;
+    box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 10%);
+    border-radius: 10px;
+}
+#Rafael p{
+    height: 276px;
+    line-height: 31px;
+    font-weight: 600;
+    color: #717B8B;
+    font-size: 19px;}
+#aspas{
+    position: relative;
+    background-color: #71DC3F;
+    border-radius: 16px;
+    border: 6px solid #71dc3f;
+    height: 19px;
+    bottom: 306px;}
+#footer{
+    background-color: black;
+    text-align: center;
+    width: 100%;}
+@media screen and (max-width: 1310px){
+    #Gabriela{
+        margin-bottom: 40px; 
+    }
+    form{
+        top: 237px;
+        right: 53px
+    }
+    .form-controle{
+        margin-bottom: 6px;
+        padding: 4px;
+    }
+    #FirstSection{
+        margin-bottom: 60px
+    }
+    #propaganda{
+        width:554px;
+        left:24px;
+    }
+}
+@media screen and (max-width: 678.89px){
+    #propaganda{
+    width: 536px; left: 28px; top: 29px; font-size: 29px
+    }
+}
